@@ -3,10 +3,7 @@
 #include<fstream>
 using namespace std;
 #include "CAR.h"
-
-
 #define car_total_number 10//定义本批次需要录入车辆的数量
-
 int main(){
     int i=1;
     ofstream fout("Car_list.txt");//利用ofstream类的构造函数创建一个文件输出流对象来打开文件 
